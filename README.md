@@ -1,6 +1,6 @@
 ### LLM-RAG-Modeling-System
 
-A AI Agent, powered by large language models (LLMs) **Personalized Agent**, processes user queries to determine actions following 
+An AI Agent, powered by large language models (LLMs) **Personalized Agent**, processes user queries to determine actions following 
 
 Components include the core **Personalized Agent** contain semantic search & retrieval, LangChain Tools for task integration, and a vector database for efficient retrieval. The LLM generates responses after analyzing user queries and retrieved information about **Documents analysis**, while additional context from external sources enriches responses. This system likely **accesses specific knowledge bases of Project intersting** . User interaction occurs through query and Personalized System interfaces, creating informative and interactive exchanges
 
@@ -58,7 +58,7 @@ The diagram below  depicts a Retrieval Augmented Generation (RAG) sequence diagr
 **Step 2: Fine-Tune the Model on Specific Data Domain of Chosen Projects Colab Platform**
 
 * **Goal:**  Adapt the LLM to the specific terminology, language, and domain of the Projects Colab Platform's incident data.
-* **Explanation:** LLMs are trained on general datasets, **which may not perfectly align with the Projects Colab Platform's specific needs. Fine-tuning involves training the LLM on a more focused dataset related to the Projects Colab Platform's KPIs reports and resolutions.** This helps the LLM become familiar with the specific language used by the Projects Colab Platform and improve its ability to identify relevant patterns and trends.
+* **Explanation:** LLMs are trained on general datasets, **which may not perfectly align with the Projects Colab Platform's specific needs. Fine-tuning involves training the LLM on a more focused dataset related to the Data Domaine .** This helps the LLM become familiar with the specific language used by improve its ability to identify relevant patterns and trends.
 
 **Step 3: Define the Pipeline RAG System and Which Suite Vector Database to Use**
 
@@ -75,7 +75,7 @@ The diagram below  depicts a Retrieval Augmented Generation (RAG) sequence diagr
 * **Goal:** Develop a user interface (UI) that allows users to interact with the LLM model. 
 * **Explanation:**  In this step, we'll design a user interface where users can submit queries and receive responses from the LLM. This could be a Personalized System Finance interface similar to OpenChat or Chauit, or another type of interface that is best suited for the Projects Colab Platform's needs.
 
-##  AI-powered decision-making of  Prediction KPI - Tech Stack
+##  LLM Building Flow 
 
 This section details the chosen technology stack for each development step of the AI system, with explanations for each component:
 
