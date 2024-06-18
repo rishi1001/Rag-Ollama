@@ -59,6 +59,8 @@ if prompt := st.chat_input("Enter your query for the MSA Planner..."):
 
     with st.chat_message("user"):
             st.markdown(prompt)
+    
+    print(prompt)
 
     with st.spinner("Processing your request..."):
 

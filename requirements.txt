@@ -7,6 +7,7 @@ langgraph
 langchain-text-splitters 
 sentence_transformers
 streamlit
-streamlit
+streamlit-chat
 pysqlite3-binary
+pypdf
 

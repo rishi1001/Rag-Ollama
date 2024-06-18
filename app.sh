@@ -5,5 +5,5 @@ function error_exit {
     exit 1
 }
 
-source MAS_env/bin/activate
+source env/bin/activate
 streamlit run app.py || error_exit "Failed to run Streamlit app."

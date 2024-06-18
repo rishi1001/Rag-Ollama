@@ -32,6 +32,8 @@ class ChatPDF:
         Ingest a PDF document by extracting its content, splitting it into chunks,
         and saving it to a vector database.
         """
+        # temp_file_path = '/HDD/home/rishi.shah/Rag-Ollama/Data/Nchadk_Nfhamo.pdf'           # TODO change this
+        # pdf_file_path = temp_file_path
         documents = self.retriever.get_documents(pdf_file_path)
         self.retriever.save_vectordb_locally(documents=documents)
 
